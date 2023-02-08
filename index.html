@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+
+<body>
+    <div class="create__panel" hidden="true">
+        <div class="create__panel__object"><img src="./img/object.svg" alt=""><span>Object</span></div>
+        <div class="create__panel__folder"><img src="./img/folder.svg" alt=""><span>Folder</span></div>
+        <div class="create__panel__file"><img src="./img/file.svg" alt=""><span>File</span></div>
+    </div>
+    <div id="tree">
+        <div>
+            <div class="search__container">
+                <img src="img/search.svg" class="search__icon" alt="" />
+                <input class="search__input" type="text"/>
+            </div>
+            <ul class="tree-main">
+             
+            </ul>
+        </div>
+
+        <div class="control__panel">
+            <div>
+                <img src="img/plus.svg" alt="" class="add_element">
+                <img src="img/trash.svg" alt="" class="trash_element">
+            </div>
+            <img src="img/save.svg" alt="" class="save_elements">
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+<script src="./search.js"></script>
+<script src="./control_panel.js"></script>
+</html>

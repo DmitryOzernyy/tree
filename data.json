@@ -1,0 +1,48 @@
+[
+    {
+        "label": "Project",
+        "icon": "file",
+        "type": "file",
+        "children": [
+            {
+                "label": "Opened Folder",
+                "icon": "folder",
+                "type": "folder",
+                "children": [
+                    {
+                        "label": "css",
+                        "icon":"folder",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "label": "CSS File",
+                                "icon": "object",
+                                "type": "object",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Folder close",
+                        "icon": "folder",
+                        "type": "folder",
+                        "children": []
+                    },
+                    {
+                        "label": "index.html",
+                        "icon": "object",
+                        "type": "object",
+                        "children": []
+                    },
+                    {
+                        "label": "favicon.ico",
+                        "icon": "object",
+                        "type": "object",
+                        "children": []
+                    }
+    
+                ]
+            }
+        ]
+    }
+]
